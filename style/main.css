@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1920px;
+    grid-template-rows: 120px 790px;
+}
+
+.navigation {
+    font-family: 'Lato';
+    position: relative;
+    background:#2C3E50;
+    border: 1px solid #707070;
+    
+}
+.navigation span {
+    margin-top: 0;
+}
+.navigation .logo-and-image {
+    position: relative;
+    top: 25.5px;
+    left: 375px;
+}
+.navigation .wrt {
+    
+    position: relative;
+    bottom: 33px;
+    font-size: 23.8px;
+    line-height: 33.71px;
+    color: #ECF0F1;
+
+}
+
+.navigation .foxshop {
+    
+    position: relative;
+    left: 50px;
+    bottom: 36px;
+}
+.navigation .fox {
+    
+    font-weight: 900;
+    color: #ECF0F1;
+    font-size: 35.69px;
+    line-height: 33.71px;
+}
+.navigation .shop {
+    font-weight: 400;
+    position: relative;
+    color: #1ABC9C;
+    font-size: 35.69px;
+    line-height: 33.71px;
+}
+.navigation a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.navigation a:hover {
+    color: #1ABC9C;
+}
+.navigation .menu {
+    position: relative;
+    word-spacing: 55px;
+    left: 686.6px;
+    bottom: 44.3px;
+}
+.navigation .icons {
+    position: absolute;
+    right: 343px;
+    bottom: 44.3px;
+}
+.fa-shopping-basket {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.fa-search {
+    position: relative;
+    top: 5px;
+    left: 7px;
+}
+.basket { 
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/Ellipse\ 2\ cart.png);
+}
+.search {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/Ellipse\ 2.png);
+}
+.container .slider {
+    background: #2C3E50;
+}
+.slider .left-arrow, .slider .right-arrow {
+    background: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    color: #2C3E50;
+    font-size: 18px;
+    position: absolute;
+    top: 510px;
+}
+.slider .left-arrow {
+    left: 70px;
+}
+.slider .right-arrow {
+    left: 1802px;
+}
+.white {
+    position: relative;
+    left: 220px;
+    z-index: 3;
+}
+.black {
+    position: relative;
+    z-index: 2;
+    right: 10px;
+}
+.text {
+    font-family: 'Lato';
+}
+.text .headline {
+    position: relative;
+    bottom: 650px;
+    left: 800px;
+    font-weight: 100;
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 60px;
+}
+.text .iphone {
+    position: absolute;
+    font-size: 90px;
+    color: #FFFFFF;
+    bottom: 360px;
+    left: 800px;
+    font-weight: 100;
+    line-height: 60px;
+}
+.text .iphone::first-letter {
+    font-weight: 400;
+}
+.text .s {
+    font-family: 'Lato';
+    font-weight: 100;
+    position: relative;
+    bottom: 360px;
+    left: 800px;
+    color: #FFFFFF;
+    line-height: 19px;
+    font-size: 80px;
+
+}
