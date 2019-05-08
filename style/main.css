@@ -285,7 +285,7 @@
     top: 62px;
     right: 1px;
 }
-.top-section .article .readmore {
+.top-section .article button {
     position: relative;
     top: 87px;
     letter-spacing: 0.1px;
@@ -298,9 +298,10 @@
     border: 1px solid #2C3E50;
     border-radius: 3px;
 }
-.readmore:hover {
-    background: #2C3E50;
+.top-section .article button:hover, .middle-section .readmore:hover, .second-bottom-section .readmore:hover, .bottom-section .readmore:hover {
     color: #FFFFFF;
+    background: #2C3E50;
+   
 }
 .content .poster-2 {
     position: relative;
@@ -777,6 +778,7 @@
 }
 .cells:hover {
     background: #1ABC9C;
+    color: white;
 }
 .cells {
     color: #CCCCCC;
