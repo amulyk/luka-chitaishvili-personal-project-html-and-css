@@ -10,7 +10,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50px 100px 120px;
+    grid-template-rows:  50px 100px 120px;
 }
 .container .top-nav {
     background-color: #1A1C27;
@@ -442,18 +442,18 @@ body {
     font-size: 30px;
     line-height: 30px;
     position: relative;
-    top: 489px;
+    top: 487px;
     left: -1px;
 }
 .bottom-section .description {
-    top: 496px;
+    top: 494px;
 }
 .bottom-section .meta {
     font-size: 14px;
     line-height: 24px;
     color: #A1B1BC;
     position: relative;
-    top: 524px;
+    top: 522px;
     right: 1px;
 } 
 .bottom-section .links {
