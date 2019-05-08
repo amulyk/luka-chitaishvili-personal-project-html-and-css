@@ -331,8 +331,9 @@ body {
 }
 .four-horsemen {
     position: relative;
-    top: 310px;
-    left: 374px;
+    top: 349px;
+    display: inline-block;
+    left: 272px;
 }
 .horse {
     position: relative;
@@ -654,14 +655,14 @@ body {
     width: 100%;
     background: #222533;
 }
-.bot p {
+.bot div {
     color: #A1B1BC;
     position: relative;
     top: 24px;
     left: 374px;
-    width: 80%;
+    display: inline-block;
 }
-.bot p a {
+.bot div a {
     text-decoration: none;
     color: #1ABC9C;
 }
