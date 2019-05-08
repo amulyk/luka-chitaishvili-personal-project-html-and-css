@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .container {
     display: grid;
     grid-template-columns: 1920px;
@@ -591,13 +595,13 @@
     font-size: 14px;
     line-height: 24px;
     left: 43px;
-    bottom: 37px;
+    bottom: 36px;
 }
 .wrap .row .update.update-2 {
     font-size: 14px;
     line-height: 24px;
     left: 43px;
-    bottom: 35px;
+    bottom: 36px;
 }
 .time {
     position: relative;
