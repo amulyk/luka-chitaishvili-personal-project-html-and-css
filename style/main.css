@@ -78,6 +78,8 @@
 }
 .navigation .menu a:hover {
     color: #1ABC9C;
+    padding-top: 35px;
+    border-top: 5px solid #1ABC9C;
 }
 .navigation .icons {
     color: #A1B1BC;
@@ -101,7 +103,7 @@
 .top-nav .language, .top-nav .email, .top-nav .call-us {
     border-right:1px solid #707070;
     border-left: 1px solid #707070;
-    padding:15px 20px;
+    padding: 17px 20px 13px;
 }
 .three {
     position: absolute;
@@ -551,11 +553,14 @@
     bottom: 2px;
     left: 114px;
 }
+.wrap .row-3 {
+    top: 106px;
+}
 .wrap .row-4 {
-    top: 108px;
+    top: 104px;
 }
 .wrap .row-5 {
-    top: 107px;
+    top: 102px;
 }
 .wrap .row span.s2 {
    left: 145px;
