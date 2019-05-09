@@ -39,7 +39,7 @@ body {
 }
 .navigation .menu {
     position: absolute;
-    top: 93px;
+    margin-top: 43px;
     left: 618px;
     font-weight: 400;
     font-size: 15.86px;
@@ -219,7 +219,7 @@ body {
     position: relative;
     left: 696px;
     top: 99px;
-    width: 849px;
+    width: 45%;
     height: 3015px;
 }
 .content .poster {
